@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #9E9AA8;
+}
+
+header button {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.kattaota {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.ota {
+    font-size: 25px;
+}
+
+.ota button {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 18px;
+}
+
+.ota p {
+    color: #9E9AA8;
+}
+
+.ota button:hover {
+    background-color: lawngreen;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+header button:hover {
+    background-color: blueviolet;
+    color: deeppink;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.ota3 h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.ota3 button {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 18px;
+}
+
+.katta {
+    position: relative;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.ota4 {
+    position: absolute;
+    background-color: dodgerblue;
+    padding: 1px 50px;
+    border-radius: 26px;
+
+}
+
+.ota2 {
+   margin: 0px 0 250px 0;
+}
+
+
+.boost {
+    background-color: rgb(74, 31, 31);
+    width: 1440px;
+    height: 270px;
+    text-align: center;
+}
+
+.shorten {
+    width: 1100px;
+    padding: 50px 60px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    background-image: url("./img/Path\ 2\ \(1\).png");
+    border-radius: 15px;
+    margin: -150px auto  40px;
+    align-items: center;
+
+}
+
+.shorten input {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15000000596046448px;
+    padding: 0px 160px;
+    border-radius: 15px;
+}
+
+.boost button {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 1px;
+}
+
+.boost h2 {
+    color: white;
+    padding: 8px 0px;
+    font-size: 30px;
+}
+
+.kattaota2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+.Features ul li {
+    list-style: none;
+}
+.kattaota2 .Features {
+    display: flex;
+    gap: 20px;
+}
+.ulo {
+    gap: 50px;
+    display: flex;
+}
